@@ -1,4 +1,4 @@
-language_words_halfling
+language_words
 
 $Id$
 

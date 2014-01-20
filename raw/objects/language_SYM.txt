@@ -1,4 +1,4 @@
-language_symbols_halfling
+language_SYM
 
 $Id$
 
