@@ -5,8 +5,8 @@ $Id$
 [OBJECT:CREATURE]
 
 [CREATURE:DAEMONIC_CHERUB]
-	[NAME:daemonic cherub:daemonic cherubim:daemonic cherub]
-	[CASTE_NAME:daemonic cherub:daemonic cherubim:daemonic cherub]
+	[NAME:daemonic cherub:daemonic cherubim:daemonic]
+	[CASTE_NAME:daemonic cherub:daemonic cherubim:daemonic]
 	[DESCRIPTION:A servant of the Blood God; its kind is send to collect live offerings for their master.]
 	[CREATURE_TILE:1][COLOR:49:0:98][CREATURE_SOLDIER_TILE:2]
 	[GLOWTILE:1][GLOWCOLOR:75:0:130]
