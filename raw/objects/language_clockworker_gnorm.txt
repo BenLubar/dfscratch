@@ -1,6 +1,6 @@
 language_clockworker_gnorm
 
-$Id: a5329f8ee965f2b4016482b328bc1400def53fca $
+$Id$
 
 [OBJECT:LANGUAGE]
 
