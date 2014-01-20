@@ -1,268 +1,359 @@
 language_clockworker_gnorm
 
-$Id$
+$Id: a5329f8ee965f2b4016482b328bc1400def53fca $
 
 [OBJECT:LANGUAGE]
 
 [TRANSLATION:BOTCHED_FRENCH_GNORM]
 
 RACES
-	[T_WORD:HALFLING:hobbit]
+	[T_WORD:HALFLING_RACE:halfelin]
+	[T_WORD:TREELORD_RACE:treelord]
+	[T_WORD:ELF_RACE:elfe]
+	[T_WORD:CLOCKWORKER_RACE:clockworker]
+	[T_WORD:LIZARDFOLK_RACE:l‚zards]
+	[T_WORD:DRAGONKIN_RACE:draconiens]
+	[T_WORD:GNOME_RACE:gnome]
+	[T_WORD:CHERUB_RACE:ange]
+	[T_WORD:TROLL_RACE:troll]
+	[T_WORD:FORMIC_RACE:formique]
+	[T_WORD:PSIONIC_RACE:psionique]
+
+CREATURE
+	[T_WORD:DOG:chien]
+	[T_WORD:TERRIER:terrier]
+	[T_WORD:MASTIFF:mastiff]
+	[T_WORD:HOUND:chien]
+	[T_WORD:BASKERVILL:baskervill]
+	[T_WORD:DRAGON:ragon]
+	[T_WORD:MOSQUITO:moustique]
+	[T_WORD:FLY_ANIMAL:voler]
+	[T_WORD:DUCK:canard]
+	[T_WORD:MALLARD:colvert]
+	[T_WORD:VOLE:campagnol]
+	[T_WORD:PALANQUIN:palanquin]
+	[T_WORD:SHADOW_ANIMAL:ombre]
+	[T_WORD:MYOMORPH:myomorph]
+	[T_WORD:CUTTLER:cuttler]
+	[T_WORD:MACTOPUS:mactopus]
+	[T_WORD:PANSERBLEKK:panserblekk]
+	[T_WORD:SQUID:calmar]
+	[T_WORD:NAUTILUS:nautilus]
+	[T_WORD:BURDLE:burdle]
+	[T_WORD:GROON:groon]
+	[T_WORD:SKURL:skurl]
+	[T_WORD:ANTELOPE:antilope]
+	[T_WORD:STRIDER_ANIMAL:strider]
+	[T_WORD:BEETLE:col‚optŠre]
+	[T_WORD:VESPULA:vespula]
+	[T_WORD:BOMBUS:bombus]
+	[T_WORD:THERAPHOSA:theraphosa]
+	[T_WORD:APHIDIDA:aphidida]
+	[T_WORD:SALTICIDA:salticida]
+	[T_WORD:AASIAAT:aasiaat]
+	[T_WORD:NEPHILA:nephila]
+	[T_WORD:ANT:ant]
+	[T_WORD:REAVER_ANIMAL:saccageur]
+	[T_WORD:MOTH:mite]
+	[T_WORD:AESHNIDA:aeshnida]
+	[T_WORD:SPIDER:araign‚e]
+	[T_WORD:CENTAUR:centaure]
+	[T_WORD:GRUB:grub]
+	[T_WORD:SEAIGO:seaigo]
+	[T_WORD:MANATEE:lamantin]
+	[T_WORD:TRUNKERIO:trunkerio]
+	[T_WORD:NIDORAN:nidoran]
+	[T_WORD:PLATYPUS:ornithorynque]
+	[T_WORD:PLATYMOOSE:ornignal]
+	[T_WORD:PLATYDEER:ornicerf]
+	[T_WORD:RYGIC:rygic]
+	[T_WORD:MULSAN:mulsan]
+	[T_WORD:BEAR:ours]
+	[T_WORD:MAMAPHINT:mamaphint]
+	[T_WORD:PLESIOPHINT:plesiophint]
+	[T_WORD:SYNTEST:ynestsynessai]
+	[T_WORD:BAT_ANIMAL:chauve-souris]
+	[T_WORD:PLANKTON:plancton]
+	[T_WORD:SCORPION:scorpion]
+	[T_WORD:TRILOBITE:trilobite]
+	[T_WORD:AMMONITE:ammonite]
 
 PLANT
 	[T_WORD:FLAX:lin]
 	[T_WORD:PUMPKIN:citrouille]
-	[T_WORD:APPLE_TREE:pommier]
-
-
-CREATURE
-	[T_WORD:HOUND:chien]
-	[T_WORD:MALLARD:canard]
-	[T_WORD:TIGER:tigre]
-	[T_WORD:DRAGON:dragon]
-	[T_WORD:TIT:mesange]
-	[T_WORD:VOLE:campagnol]
+	[T_WORD:APPLE:apple]
+	[T_WORD:GRASS:herbe]
+	[T_WORD:MUSHROOM:champignon]
+	[T_WORD:PEAR:pear]
+	[T_WORD:PEACH:pˆche]
+	[T_WORD:CHERRY:cerise]
+	[T_WORD:ORANGE_PLANT:orange]
+	[T_WORD:LEMON:citron]
+	[T_WORD:TREE:arbre]
+	[T_WORD:FLOWER:fleur]
+	[T_WORD:COCONUT:noixcoco]
+	[T_WORD:CACTUS:cactus]
+	[T_WORD:TEA:th‚]
+	[T_WORD:BUSH:buisson]
 
 ARTIFICE
-	[T_WORD:HAME:hame]
-	[T_WORD:BREWED:d'herbe]
+	[T_WORD:HAME:jambon]
+	[T_WORD:BREWED:brass‚e]
 	[T_WORD:HOMEMADE:maison]
 	[T_WORD:PIE:tarte]
-	[T_WORD:TEA:the]
 
-ASSERTIVE	
-	[T_WORD:MEAN:mechant]
-	[T_WORD:GALL:fiel]
-	[T_WORD:MIGHTY:puissant]
+ASSERTIVE
+	[T_WORD:GALL:v‚sicule]
+	[T_WORD:MIGHTY:puissante]
 	[T_WORD:BRAVE:courageux]
 
 AQUATIC
-	[T_WORD:OCEAN:ocean]
-	[T_WORD:WATERY:aqueux]
+	[T_WORD:OCEAN:oc‚an]
+	[T_WORD:WATER:l'eau]
 	[T_WORD:BUBBLE:bulle]
-	[T_WORD:BUBBLING:bouillonnement]
 	[T_WORD:WAVE:vague]
 
 COLOR
 	[T_WORD:RED:rouge]
-	[T_WORD:BLUE:bleu]
+	[T_WORD:ORANGE_COLOR:orange]
+	[T_WORD:YELLOW:jaune]
 	[T_WORD:GREEN:vert]
+	[T_WORD:BLUE:bleu]
+	[T_WORD:INDIGO:indigo]
+	[T_WORD:VIOLET:violet]
 	[T_WORD:WHITE:blanc]
 	[T_WORD:BLACK:noir]
-	[T_WORD:DARK:sombre]
-	[T_WORD:BRIGHT:clair]
-
+	[T_WORD:LIGHT_COLOR:lumiŠre]
+	[T_WORD:DARK:noir]
+	[T_WORD:BRIGHT:blumineux]
+	[T_WORD:DULL:terne]
 
 DEATH
-	[T_WORD:DEATH:deces]
-	[T_WORD:DEADLY:meurtrier]
-	[T_WORD:REAPER:moissonneur]
-	[T_WORD:LETHAL:letale]
-	[T_WORD:SKULL:crane]
-
+	[T_WORD:DEATH:mort]
+	[T_WORD:DEADLY:mortel]
+	[T_WORD:REAPER:moissonneuse]
+	[T_WORD:LETHAL:l‚tale]
+	[T_WORD:SKULL:crƒne]
 
 DOMESTIC
-	[T_WORD:HOME:domicile]
+	[T_WORD:HOME:home]
 	[T_WORD:PANTS:pantalon]
-	[T_WORD:COZY:douillet]
-	[T_WORD:RUMP:croupion]
+	[T_WORD:COZY:confortable]
 	[T_WORD:BAG:sac]
-
+	[T_WORD:RUMP:croupe]
 
 EARTH
 	[T_WORD:STONE:pierre]
-	[T_WORD:ROCK:roche]
+	[T_WORD:EARTH:terre]
 	[T_WORD:HARD:dur]
-	[T_WORD:DIRT:salete]
-	[T_WORD:EARTHY:terreux]
-
+	[T_WORD:DIRT:salet‚]
+	[T_WORD:ROCK:rocher]
 
 EVIL
-	[T_WORD:EVIL:mal]
-	[T_WORD:WICKED:mechant]
-	[T_WORD:VILE:vile]
-	[T_WORD:TRAITOR:traitre]
-	[T_WORD:LIE:mentir]
-
+	[T_WORD:EVIL:evil]
+	[T_WORD:WICKED:mauvais]
+	[T_WORD:VILE:vil]
+	[T_WORD:TRAITOR:traŒtre]
+	[T_WORD:LIE:mensonge]
 
 FLOWERY
 	[T_WORD:BLOSSOM:fleur]
-	[T_WORD:FLOWERING:floraison]
-	[T_WORD:PETAL:petale]
+	[T_WORD:FLOWER_VERB:fleurir]
+	[T_WORD:PETAL:p‚tale]
 	[T_WORD:VINE:vigne]
 
 GOOD
-	[T_WORD:GOOD:bonne]
-	[T_WORD:RIGHTEOUS:vertueux]
-	[T_WORD:PURE:pur]
-	[T_WORD:HEALING:guerison]
-	[T_WORD:RADIANT:rayonnante]
-	[T_WORD:OATH:serment]
-
+	[T_WORD:GOOD:bon]
+	[T_WORD:RIGHTEOUS:juste]
+	[T_WORD:FAIR:‚quitable]
+	[T_WORD:HEALING:gu‚rison]
+	[T_WORD:RADIANT:radiant]
 
 HOLY
 	[T_WORD:GOD:dieu]
-	[T_WORD:SACRED:sacre]
-	[T_WORD:FAIR:juste]
-	[T_WORD:ZEALOUS:zele]
-
+	[T_WORD:ZEALOUS:z‚l‚]
+	[T_WORD:SACRED:sacr‚]
+	[T_WORD:PURE:pur]
+	[T_WORD:OATH:serment]
 
 LEADER
 	[T_WORD:LORD:seigneur]
-	[T_WORD:STEWARD:steward]
-	[T_WORD:CHIEF:contremaitre]
-	[T_WORD:HEIR:heritier]
-	[T_WORD:RIGHTFUL:legitime]
-
+	[T_WORD:STEWARD:intendant]
+	[T_WORD:CHIEF:chef]
+	[T_WORD:RIGHTFUL:l‚gitime]
+	[T_WORD:HEIR:h‚ritier]
 
 MAGIC
-	[T_WORD:WITCH:sorciere]
-	[T_WORD:ENCHANTED:ensorceler]
-	[T_WORD:WITCHED:ensorceler]
+	[T_WORD:WITCH:sorciŠre]
+	[T_WORD:ENCHANTED:enchant‚]
+	[T_WORD:WITCHED:envo–ter]
 	[T_WORD:CURSED:maudit]
-	[T_WORD:FAIRY:pede]
-
+	[T_WORD:FAIRY:f‚e]
 
 MYSTERY
-	[T_WORD:SECRET:secrete]
-	[T_WORD:HAZY:brumeux]
+	[T_WORD:SECRET:lesecret]
+	[T_WORD:HAZY:voil‚]
 	[T_WORD:MISTY:brumeux]
-	[T_WORD:HIDDEN:cache]
+	[T_WORD:HIDDEN:cach‚]
 	[T_WORD:DEEP:profonde]
 
-
 MYTHIC
-	[T_WORD:HERO:heros]
+	[T_WORD:HERO:h‚ros]
 	[T_WORD:CHAMPION:champion]
-	[T_WORD:MASTER:maitre]
-	[T_WORD:HEROIC:heroique]
+	[T_WORD:MASTER:maŒtre]
+	[T_WORD:HEROIC:h‚ro‹que]
 	[T_WORD:MYTHIC:mythique]
-
 
 NATURE
 	[T_WORD:FIELD:domaine]
 
-
 NEGATIVE
 	[T_WORD:NOT:pas]
-	[T_WORD:HARDLY:a peine]
-	[T_WORD:NEITHER:aucun]
-	[T_WORD:FALSE:faux]
-	[T_WORD:WRONG:faux]
-
+	[T_WORD:HARDLY:peine]
+	[T_WORD:FALSE:false]
+	[T_WORD:NEITHER:ni]
+	[T_WORD:WRONG:mal]
 
 OLD
-	[T_WORD:YORE:autrefois]	
-	[T_WORD:OLD:vieux]
-	[T_WORD:ELDER:aine]
-	[T_WORD:PAST:passe]
+	[T_WORD:YORE:autrefois]
+	[T_WORD:OLD:ancien]
+	[T_WORD:ELDER:aŒn‚]
+	[T_WORD:PAST:pass‚]
 	[T_WORD:YESTER:hier]
-
 
 PEACE
 	[T_WORD:LULL:accalmie]
 	[T_WORD:PEACEFUL:paisible]
-	[T_WORD:STILL:encore]
-	[T_WORD:CALM:calmer]
 	[T_WORD:PEACE:paix]
-
+	[T_WORD:CALM:calme]
+	[T_WORD:STILL:tranquillit‚]
 
 PRIMITIVE
 	[T_WORD:WILD:sauvage]
-	[T_WORD:BEARD:triomphe]
-	[T_WORD:GOBBLER:dindon]
+	[T_WORD:BEARD:barbe]
+	[T_WORD:CANNIBAL:cannibale]
 	[T_WORD:SAVAGE:sauvage]
-	[T_WORD:BARBAROUS:imberbe]
-
+	[T_WORD:BARBAROUS:barbare]
 
 PROTECT
 	[T_WORD:SHIELD:bouclier]
-	[T_WORD:GUARDED:surveille]
-	[T_WORD:GUARDIAN:tuteur]
+	[T_WORD:GUARDED:gard‚]
+	[T_WORD:GUARDIAN:gardien]
 	[T_WORD:GUARD:garde]
 	[T_WORD:WALL:mur]
 
-
 RESTRAIN
-	[T_WORD:CHAIN:chaine]
-	[T_WORD:LEASHED:tenus en laisse]
+	[T_WORD:CHAIN:chaŒne]
 	[T_WORD:LEASH:laisse]
-	[T_WORD:CUFFED:discute]
-	[T_WORD:BOUND:lie]
-
+	[T_WORD:CUFFED:menott‚]
+	[T_WORD:BOUND:limite]
+	[T_WORD:TRAP_VERB:piŠge]
 
 ROMANTIC
-	[T_WORD:DARLING:cherie]
-	[T_WORD:BELOVED:bien-aimee]
-	[T_WORD:LOVE:aimer]
-	[T_WORD:LOVING:affectueux]
-	[T_WORD:PRECIOUS:precieux]
+	[T_WORD:DARLING:ch‚rie]
+	[T_WORD:BELOVED:bien-aim‚]
+	[T_WORD:LOVE:amour]
+	[T_WORD:TREASURE:tr‚sor]
+	[T_WORD:PRECIOUS:pr‚cieux]
 
 SUBORDINATE
 	[T_WORD:DAUGHTER:fille]
 	[T_WORD:SON:fils]
-	[T_WORD:CHILD:enfant]
-	[T_WORD:WHELP:mettre bas]
-	[T_WORD:MOOK:serviteur]
+	[T_WORD:CHILD:l'enfant]
+	[T_WORD:WHELP:dragonnet]
+	[T_WORD:MOOK:mook]
+	[T_WORD:GRUNT:runtgrognement]
+	[T_WORD:SLAVE:esclave]
 
 THOUGHT
 	[T_WORD:MIND:l'esprit]
 	[T_WORD:BRAIN:cerveau]
-	[T_WORD:PSYCHE:psychisme]
-	[T_WORD:WRY:desabuse]
-	[T_WORD:CLEVER:astucieux]
-
+	[T_WORD:PSYCHE:psych‚]
+	[T_WORD:WRY:tordu]
+	[T_WORD:CLEVER:intelligent]
+	[T_WORD:MANIPULATE:manipuler]
 
 UGLY
 	[T_WORD:UGLY:laid]
 	[T_WORD:FOUL:faute]
 	[T_WORD:POCK:pock]
-	[T_WORD:HOG:moto]
-	[T_WORD:NASTY:horrible]
-
+	[T_WORD:HOG:porc]
+	[T_WORD:NASTY:m‚chant]
 
 UNTOWARD
-	[T_WORD:IDIOT:imbecile]
-	[T_WORD:STUPIDITY:stupidite]
-	[T_WORD:HALFWIT:cretin]
+	[T_WORD:IDIOT:imb‚cile]
+	[T_WORD:STUPIDITY:stupidit‚]
+	[T_WORD:HALFWIT:idiot]
 	[T_WORD:OAF:lourdaud]
-	[T_WORD:MEAN:signifier]
-
+	[T_WORD:MEAN:moyen]
 
 VIOLENT
-	[T_WORD:HOUND:chien de chasse]
-	[T_WORD:BLOODY:sanglante]
+	[T_WORD:BLOODY:bloody]
 	[T_WORD:BLADE:lame]
 	[T_WORD:MURDER:assassiner]
 	[T_WORD:REAVER:saccageur]
 
 WILD
-	[T_WORD:TRICK:astuce]
-	[T_WORD:NAUGHTY:paillard]
-	[T_WORD:TRICKSY:delicat]
+	[T_WORD:TRICK:truc]
+	[T_WORD:NAUGHTY:vilain]
+	[T_WORD:TRICKSY:espiŠgle]
 	[T_WORD:FLIRTY:dragueur]
-	[T_WORD:SPICY:epice]
+	[T_WORD:SPICY:‚pic‚]
+	[T_WORD:SAUCY:hardi]
 
-
-NAME
+NAME_ROAD
 	[T_WORD:ROAD:route]
+	
+NAME_WAR
 	[T_WORD:WAR:guerre]
+
+NAME_BATTLE
 	[T_WORD:BATTLE:bataille]
-	[T_WORD:SIEGE:siege]
+
+NAME_SIEGE
+	[T_WORD:SIEGE:siŠge]
+
+NAME_DESERT
+	[T_WORD:DESERT:d‚sert]
+
+NAME_ENTITY_KINGDOM
+	[T_WORD:KINGDOM:royaume]
+
+NAME_CAVE
 	[T_WORD:CAVERN:caverne]
-	[T_WORD:DESERT:desert]
-	[T_WORD:KINGDOM:regime]
-	[T_WORD:EXPEDITION:expedition]
+
+NAME_ENTITY_TOWN_FOUNDER
+	[T_WORD:EXPEDITION:exp‚dition]
+
+NAME_FOREST
 	[T_WORD:WOODS:bois]
+
+NAME_GLACIER
 	[T_WORD:GLACIER:glacier]
+
+NAME_GRASSLAND
 	[T_WORD:PLAINS:plaines]
-	[T_WORD:HILL:collines]
+
+NAME_HILLS
+	[T_WORD:HILL:colline]
+
+NAME_LAKE
 	[T_WORD:LAKE:lac]
+
+NAME_MOUNTAINS
 	[T_WORD:MOUNTAIN:montagne]
+
+NAME_OCEAN
 	[T_WORD:SEA:mer]
-	[T_WORD:SWAMP:submerger]
-	[T_WORD:CREATION:creation]
-	[T_WORD:STAR:etoiles]
-	[T_WORD:AETHER:ether]
-	[T_WORD:ETHEREAL:ethere]
+
+NAME_SWAMP
+	[T_WORD:SWAMP:marais]
+
+NAME_REGION
+	[T_WORD:CREATION:cr‚ation]
+	[T_WORD:STAR:‚toiles]
+	[T_WORD:AETHER:‚ther]
+	[T_WORD:ETHEREAL:‚th‚r‚e]
+
+NAME_TUNDRA
 	[T_WORD:TUNDRA:toundra]
