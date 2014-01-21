@@ -15,6 +15,7 @@
 /*.bat
 /errorlog.txt
 /gamelog.txt
+/map_rejection_log.txt
 /command line.txt
 /file changes.txt
 /optipng license.txt

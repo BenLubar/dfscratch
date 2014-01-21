@@ -104,7 +104,7 @@ msa' ywm alrab'e mn tmwz 'eam hyn kan 'ea'edaan ala byth mn mshahdh hfl llal'eab
 
 words = Set.new
 
-File.read('../raw/objects/language_symbols_halfling.txt').scan(/\[S_WORD:([^:\[\]]+)\]/) do |word|
+File.read('../raw/objects/language_SYM.txt').scan(/\[S_WORD:([^:\[\]]+)\]/) do |word|
 	words.add word[0]
 end
 

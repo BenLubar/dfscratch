@@ -1,6 +1,6 @@
 language_clockworker_gnorm
 
-$Id$
+$Id: 8a4f19f81d881e6b6e120590f63865170e54b9ce $
 
 [OBJECT:LANGUAGE]
 
@@ -237,7 +237,7 @@ PRIMITIVE
 
 PROTECT
 	[T_WORD:SHIELD:bouclier]
-	[T_WORD:GUARDED:gard‚]
+	[T_WORD:GUARD_VERB:gard‚]
 	[T_WORD:GUARDIAN:gardien]
 	[T_WORD:GUARD:garde]
 	[T_WORD:WALL:mur]

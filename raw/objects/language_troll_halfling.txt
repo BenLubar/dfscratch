@@ -7,21 +7,94 @@ $Id$
 [TRANSLATION:PRIMITIVE_HLG]
 
 RACES
-	[T_WORD:HALFLING:troll]
-
-PLANT
-	[T_WORD:FLAX:blues]
-	[T_WORD:PUMPKIN:reds]
-	[T_WORD:APPLE_TREE:juices]
-
+	[T_WORD:HALFLING_RACE:midget]
+	[T_WORD:TREELORD_RACE:tree]
+	[T_WORD:ELF_RACE:midget]
+	[T_WORD:CLOCKWORKER_RACE:midget]
+	[T_WORD:LIZARDFOLK_RACE:snake]
+	[T_WORD:DRAGONKIN_RACE:snake]
+	[T_WORD:GNOME_RACE:midget]
+	[T_WORD:CHERUB_RACE:spooky]
+	[T_WORD:TROLL_RACE:troll]
+	[T_WORD:FORMIC_RACE:bug]
+	[T_WORD:PSIONIC_RACE:spooky]
 
 CREATURE
+	[T_WORD:DOG:sniffer]
+	[T_WORD:TERRIER:sniffer]
+	[T_WORD:MASTIFF:sniffer]
 	[T_WORD:HOUND:sniffer]
-	[T_WORD:MALLARD:duck]
-	[T_WORD:TIGER:eater]
+	[T_WORD:BASKERVILL:sniffer]
 	[T_WORD:DRAGON:dragon]
-	[T_WORD:TIT:snack]
+	[T_WORD:MOSQUITO:bug]
+	[T_WORD:FLY_ANIMAL:bug]
+	[T_WORD:DUCK:bird]
+	[T_WORD:MALLARD:bird]
 	[T_WORD:VOLE:rat]
+	[T_WORD:PALANQUIN:rat]
+	[T_WORD:SHADOW_ANIMAL:spooky]
+	[T_WORD:MYOMORPH:rat]
+	[T_WORD:CUTTLER:fish]
+	[T_WORD:MACTOPUS:fish]
+	[T_WORD:PANSERBLEKK:fish]
+	[T_WORD:SQUID:fish]
+	[T_WORD:NAUTILUS:fish]
+	[T_WORD:BURDLE:bird]
+	[T_WORD:GROON:bird]
+	[T_WORD:SKURL:bird]
+	[T_WORD:ANTELOPE:horse]
+	[T_WORD:STRIDER_ANIMAL:bug]
+	[T_WORD:BEETLE:bug]
+	[T_WORD:VESPULA:bug]
+	[T_WORD:BOMBUS:bug]
+	[T_WORD:THERAPHOSA:bug]
+	[T_WORD:APHIDIDA:bug]
+	[T_WORD:SALTICIDA:bug]
+	[T_WORD:AASIAAT:bug]
+	[T_WORD:NEPHILA:bug]
+	[T_WORD:ANT:bug]
+	[T_WORD:REAVER_ANIMAL:bug]
+	[T_WORD:MOTH:bug]
+	[T_WORD:AESHNIDA:bug]
+	[T_WORD:SPIDER:bug]
+	[T_WORD:CENTAUR:horse]
+	[T_WORD:GRUB:bug]
+	[T_WORD:SEAIGO:bird]
+	[T_WORD:MANATEE:fish]
+	[T_WORD:TRUNKERIO:fish]
+	[T_WORD:NIDORAN:pokey]
+	[T_WORD:PLATYPUS:snake]
+	[T_WORD:PLATYMOOSE:horse]
+	[T_WORD:PLATYDEER:horse]
+	[T_WORD:RYGIC:pokey]
+	[T_WORD:MULSAN:snake]
+	[T_WORD:BEAR:bear]
+	[T_WORD:MAMAPHINT:bear]
+	[T_WORD:PLESIOPHINT:bear]
+	[T_WORD:SYNTEST:spooky]
+	[T_WORD:BAT_ANIMAL:bird]
+	[T_WORD:PLANKTON:fish]
+	[T_WORD:SCORPION:bug]
+	[T_WORD:TRILOBITE:bug]
+	[T_WORD:AMMONITE:bug]
+
+PLANT
+	[T_WORD:FLAX:plant]
+	[T_WORD:PUMPKIN:fruit]
+	[T_WORD:APPLE:fruit]
+	[T_WORD:GRASS:plant]
+	[T_WORD:MUSHROOM:fruit]
+	[T_WORD:PEAR:fruit]
+	[T_WORD:PEACH:fruit]
+	[T_WORD:CHERRY:fruit]
+	[T_WORD:ORANGE_PLANT:fruit]
+	[T_WORD:LEMON:fruit]
+	[T_WORD:TREE:tree]
+	[T_WORD:FLOWER:plant]
+	[T_WORD:COCONUT:fruit]
+	[T_WORD:CACTUS:tree]
+	[T_WORD:TEA:plant]
+	[T_WORD:BUSH:plant]
 
 ARTIFICE
 	[T_WORD:HAME:shack]
@@ -30,28 +103,31 @@ ARTIFICE
 	[T_WORD:PIE:pickled]
 	[T_WORD:TEA:booze]
 
-ASSERTIVE	
-	[T_WORD:MEAN:mean]
-	[T_WORD:GALL:gall]
+ASSERTIVE
+	[T_WORD:GALL:mean]
 	[T_WORD:MIGHTY:mighty]
 	[T_WORD:BRAVE:big]
 
 AQUATIC
-	[T_WORD:OCEAN:sea]
-	[T_WORD:WATERY:slimy]
-	[T_WORD:BUBBLE:brew]
-	[T_WORD:BUBBLING:brewing]
-	[T_WORD:WAVE:crest]
+	[T_WORD:OCEAN:water]
+	[T_WORD:WATER:water]
+	[T_WORD:BUBBLE:bubble]
+	[T_WORD:WAVE:wave]
 
 COLOR
 	[T_WORD:RED:bloody]
-	[T_WORD:BLUE:gloomy]
+	[T_WORD:ORANGE_COLOR:bloody]
+	[T_WORD:YELLOW:sickly]
 	[T_WORD:GREEN:sickly]
-	[T_WORD:WHITE:pale]
-	[T_WORD:BLACK:black]
+	[T_WORD:BLUE:gloomy]
+	[T_WORD:INDIGO:gloomy]
+	[T_WORD:VIOLET:gloomy]
+	[T_WORD:WHITE:shiny]
+	[T_WORD:BLACK:dark]
+	[T_WORD:LIGHT_COLOR:shiny]
 	[T_WORD:DARK:dark]
-	[T_WORD:BRIGHT:blinding]
-
+	[T_WORD:BRIGHT:shiny]
+	[T_WORD:DULL:dark]
 
 DEATH
 	[T_WORD:DEATH:death]
@@ -64,17 +140,15 @@ DOMESTIC
 	[T_WORD:HOME:shack]
 	[T_WORD:PANTS:loincloth]
 	[T_WORD:COZY:lazy]
-	[T_WORD:RUMP:rump]
 	[T_WORD:BAG:loot]
-
+	[T_WORD:RUMP:rump]
 
 EARTH
-	[T_WORD:STONE:stone]
+	[T_WORD:STONE:rock]
 	[T_WORD:ROCK:rock]
-	[T_WORD:HARD:hard]
-	[T_WORD:DIRT:dirty]
-	[T_WORD:EARTHY:bland]
-
+	[T_WORD:HARD:rock]
+	[T_WORD:DIRT:dirt]
+	[T_WORD:EARTH:dirt]
 
 EVIL
 	[T_WORD:EVIL:evil]
@@ -85,7 +159,7 @@ EVIL
 
 FLOWERY
 	[T_WORD:BLOSSOM:pansy]
-	[T_WORD:FLOWERING:pretty]
+	[T_WORD:FLOWER_VERB:pretty]
 	[T_WORD:PETAL:plucker]
 	[T_WORD:VINE:strangler]
 
@@ -162,25 +236,23 @@ PEACE
 	[T_WORD:CALM:sneaky]
 	[T_WORD:PEACE:monger]
 
-
 PRIMITIVE
 	[T_WORD:WILD:wild]
 	[T_WORD:BEARD:beard]
-	[T_WORD:GOBBLER:gobbler]
+	[T_WORD:CANNIBAL:gobbler]
 	[T_WORD:SAVAGE:savage]
 	[T_WORD:BARBAROUS:barbarous]
 
-
 PROTECT
 	[T_WORD:SHIELD:shield]
-	[T_WORD:GUARDED:guard]
+	[T_WORD:GUARD_VERB:guard]
 	[T_WORD:GUARDIAN:boss]
 	[T_WORD:GUARD:brute]
 	[T_WORD:WALL:spikes]
 
 RESTRAIN
 	[T_WORD:CHAIN:chain]
-	[T_WORD:LEASHED:chained]
+	[T_WORD:TRAP_VERB:chained]
 	[T_WORD:LEASH:whip]
 	[T_WORD:CUFFED:whipped]
 	[T_WORD:BOUND:bound]
@@ -189,7 +261,6 @@ ROMANTIC
 	[T_WORD:DARLING:shiny]
 	[T_WORD:BELOVED:looted]
 	[T_WORD:LOVE:lust]
-	[T_WORD:LOVING:lusting]
 	[T_WORD:PRECIOUS:precious]
 
 SUBORDINATE
@@ -198,6 +269,7 @@ SUBORDINATE
 	[T_WORD:CHILD:whelp]
 	[T_WORD:WHELP:weakling]
 	[T_WORD:MOOK:brainless]
+	[T_WORD:SLAVE:whelp]
 
 THOUGHT
 	[T_WORD:MIND:soul]
@@ -205,7 +277,7 @@ THOUGHT
 	[T_WORD:PSYCHE:spirit]
 	[T_WORD:WRY:wry]
 	[T_WORD:CLEVER:brainy]
-
+	[T_WORD:MANIPULATE:control]
 
 UGLY
 	[T_WORD:UGLY:ugly]
@@ -214,14 +286,12 @@ UGLY
 	[T_WORD:HOG:hog]
 	[T_WORD:NASTY:nasty]
 
-
 UNTOWARD
 	[T_WORD:IDIOT:moron]
 	[T_WORD:STUPIDITY:stupid]
 	[T_WORD:HALFWIT:halfwit]
 	[T_WORD:OAF:oaf]
 	[T_WORD:MEAN:mean]
-
 
 VIOLENT
 	[T_WORD:BLOODY:bloody]
@@ -235,7 +305,6 @@ WILD
 	[T_WORD:TRICKSY:tricksy]
 	[T_WORD:FLIRTY:flirty]
 	[T_WORD:SPICY:spicy]
-
 
 NAME
 	[T_WORD:ROAD:path]
