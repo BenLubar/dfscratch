@@ -17,7 +17,6 @@ $Id$
 	[MAX_POP_NUMBER:600]
 	[MAX_SITE_POP_NUMBER:150]
 	[MAX_STARTING_CIV_NUMBER:1]
-	[TRANSLATION:GENERATED_ENGLISH]
 	[ETHIC:KILL_ENTITY_MEMBER:PUNISH_CAPITAL] Treachery is not tolerated.
 	[ETHIC:KILL_NEUTRAL:REQUIRED] Wouldn't wan't to anger the underground creatures unless absolutely necessary.
 	[ETHIC:KILL_ENEMY:REQUIRED]
